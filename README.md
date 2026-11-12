@@ -1,5 +1,10 @@
 # WorkBuddy 截图提问
 
+[![release](https://img.shields.io/github/v/release/timetopma/workbuddy-screenshot-qa?color=2f6feb)](https://github.com/timetopma/workbuddy-screenshot-qa/releases)
+[![license](https://img.shields.io/github/license/timetopma/workbuddy-screenshot-qa?color=2f6feb)](LICENSE)
+[![platform](https://img.shields.io/badge/platform-Windows%2010%20%2F%2011-0078D6)](#环境要求)
+[![python](https://img.shields.io/badge/python-3.9%2B-3776AB)](#环境要求)
+
 > 在 WorkBuddy 输入框旁长出一个「截图提问」按钮：点一下 → 框选 → 松手，截图就已经躺在输入框里了，直接打字发问。
 
 一个 Windows 上的小工具，约 2200 行 Python，无第三方 UI 框架，只用 `tkinter` + `Pillow` + `ctypes` 调 Win32。
