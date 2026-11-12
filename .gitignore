@@ -1,0 +1,23 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# ---- 本地配置 ----
+# 每个人的窗口位置、主题、采样色都不一样，属于运行产物，不进仓库。
+config.json
+
+# ---- 运行产物 ----
+截图/
+*.log
+窗口隐藏中.flag
+_move.log
+
+# ---- 系统 / 编辑器 ----
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/

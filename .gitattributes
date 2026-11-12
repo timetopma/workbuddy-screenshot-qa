@@ -1,0 +1,13 @@
+* text=auto
+
+# Windows 批处理 / 脚本必须是 CRLF，否则 label 跳转可能失效
+*.bat text eol=crlf
+*.vbs text eol=crlf
+
+# 源码与文档用 LF
+*.py  text eol=lf
+*.md  text eol=lf
+*.txt text eol=lf
+
+*.png binary
+*.jpg binary
