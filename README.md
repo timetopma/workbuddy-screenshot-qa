@@ -108,7 +108,7 @@
 ## 安装
 
 ```bash
-git clone https://github.com/<your-name>/workbuddy-screenshot-qa.git
+git clone https://github.com/timetopma/workbuddy-screenshot-qa.git
 cd workbuddy-screenshot-qa
 pip install -r requirements.txt
 ```
